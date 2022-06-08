@@ -3,10 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <title>Aprendendo HTML</title>
+    <style>
+      body {
+        background-color: #051923;
+      }
+
+      h1 {
+        color: #00a6fb;
+      }
+      p {
+        color: #0582ca;
+      }
+      .button {
+        padding: 10px;
+        /* border: 2px solid red; */
+        background-color: #006494;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .ultima {
+        color: #4ebdfd;
+      }
+
+      .redonda {
+        border-radius: 50%;
+      }
+
+    </style>
   </head>
   <body>
-    <h2>Eduardo Fernandes Balieiro</h2>
-    <img
+    <h1>Eduardo Fernandes Balieiro</h1>
+    <img class="redonda"
       src="https://media-exp2.licdn.com/dms/image/C4E03AQG07psaP0UOdQ/profile-displayphoto-shrink_100_100/0/1653984401621?e=1660176000&v=beta&t=mCQcbLFm-IAz0BhdlHKbkml16cg-z7vq2uCSvoHiRwE"
       alt="Uma foto atual minha"
     />
@@ -14,8 +43,11 @@
       Eu sou Eduardo,sou brasileiro e moro em itumbiara/GO,estou cursando
       desenvolvimento web na trybe e esse e meu perfil
     </p>
-    <a href="https://www.linkedin.com/in/eduardo-fernandes-balieiro-b87238200/">Linkedin</a>
-    <ul>
+    <a class="button" href="https://www.linkedin.com/in/eduardo-fernandes-balieiro-b87238200/"
+      >Linkedin</a
+    >
+    <h2 class="ultima">Competências:</h2>
+    <ul class="ultima">
       <li><strong>Bom em exatas</strong></li>
       <li>Bom em aprender</li>
       <li>Aberto a novas ideias</li>
